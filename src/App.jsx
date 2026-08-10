@@ -109,7 +109,7 @@ const TIMELINE = [
   { year: "2024", tag: "ENROLLED", detail: "B.Tech ECE, Sri Venkateswara College of Engineering, Tirupati" },
   { year: "2025", tag: "SHIPPED", detail: "First product live — solo-built, solo-shipped" },
   { year: "2026", tag: "ELECTED", detail: "President, IETE Student Chapter, SVCE" },
-  { year: "2026", tag: "FINALIST", detail: "5G Innovation Hackathon — National Round, \u201cSmart Beam\u201d adaptive headlight" },
+  { year: "2026", tag: "FINALIST", detail: "5G Innovation Hackathon — National Round, \u201c 5G-Enabled Real-Time Pest & Disease Detection System\u201d for Farmers" },
 ];
 
 const FACTS = [
@@ -156,14 +156,20 @@ const OPS = [
   {
     role: "Gig Partner",
     org: "Rapido",
-    period: "Ongoing",
+    period: "2026-",
     desc: "Ride-hailing shifts alongside coursework — the direct trigger for building Loggy Gig.",
   },
   {
     role: "Gig Partner",
     org: "Blinkit",
-    period: "Ongoing",
+    period: "2026-",
     desc: "Quick-commerce delivery work — ground-level exposure to logistics, incentives and real operating pressure.",
+  },
+  {
+    role: "Gig Partner",
+    org: "Dominos PIzza",
+    period: "2026-",
+    desc: "Another delivery rotation added — same hustle, less time between classes.",
   },
 ];
 
