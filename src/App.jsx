@@ -182,7 +182,7 @@ const CAPS = [
 const CONTACT = [
   { icon: Mail, label: "Muttukururahul@gmail.com", href: "mailto:Muttukururahul@gmail.com" },
   { icon: Phone, label: "+91 87121 30308", href: "tel:+918712130308" },
-  { icon: Instagram, label: "@Kalospro", href: "https://instagram.com/Kalospro" },
+  { icon: Instagram, label: "@Kalospro", href: "https://www.instagram.com/rahul_muttukuru/" },
   { icon: Linkedin, label: "linkedin.com/in/muttukururahul", href: "https://www.linkedin.com/in/muttukururahul" },
 ];
 
