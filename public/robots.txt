@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://muttukururahul.vercel.app/sitemap.xml
