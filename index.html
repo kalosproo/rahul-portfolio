@@ -15,6 +15,21 @@
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      (() => {
+        const oldBio = "I'm Rahul — everyone calls me Bujji. Second-year ECE student who ships full products solo, runs a 16-event technical chapter, and picks up gig shifts between semesters. Everything here is real, live, and built end to end.";
+        const newBio = "I'm Rahul — I turn real-world problems into products. I build, experiment, and ship end to end, turning ideas into things people can actually use.";
+        const replaceBio = () => {
+          document.querySelectorAll("#root *").forEach((el) => {
+            if (el.children.length === 0 && el.textContent.trim() === oldBio) {
+              el.textContent = newBio;
+            }
+          });
+        };
+        new MutationObserver(replaceBio).observe(document.getElementById("root"), { childList: true, subtree: true });
+        replaceBio();
+      })();
+    </script>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
